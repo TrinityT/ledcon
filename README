@@ -1,0 +1,23 @@
+Led controller for Webmail window notifer
+=========================================
+
+* Requisites:
+
+   - libusb-1.0-dev
+   - build-essentials
+
+* Compile 
+
+   make
+
+* Run
+
+  1. Connect the Webmail windows USB device
+  2. Switch on or switch off on demand!
+
+         ./lednotifier red | green | blue | off
+
+
+NOTE: There are two compiled versions in this package under bin folder
+
+ 
